@@ -1,0 +1,28 @@
+.style{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: column;
+}
+.imges{
+    overflow: hidden;
+}
+.hov{
+    cursor: pointer;
+    background-color: #29b198bf;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    left: 20px;
+    
+    opacity: 0;
+    transition: all .5s;
+    
+}
+.hov:hover{
+ opacity: 1;
+ 
+}
